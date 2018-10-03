@@ -1,0 +1,2 @@
+# actividad006
+curriculum
