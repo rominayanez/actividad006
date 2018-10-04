@@ -20,15 +20,18 @@
 
         }
 
-        .ACERCA,
-        .EDUCACIÓN,
-        .EXPERIENCIA,
-        .CONTACTO,
-        .SKILLS,
-        .IDIOMAS,
-        .HOBBIES {
+        h3 {
             color: red;
             font-weight: bold;
+        }
+
+        .skillpython,
+        .skillhtml,
+        .skillcss,
+        .skillphp,
+        .skilljs {
+            background-color: red;
+            color: white;
         }
 
         .row {
@@ -101,23 +104,30 @@
 
     <div class="row">
         <div class="col-md-6">
-            <h3> // ACERCA DE </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <div class="EDUCACIÓN"> // EDUCACIÓN </div>
-            <div class="row">
-                <div class="col-md-1"> <strong> 2012 </strong> </div>
-                <div class="col-md-9"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            <div>
+                <h3> // ACERCA DE </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
-            <div class="row">
-                <div class="col-md-1"> <strong> 1986 </strong> </div>
-                <div class="col-md-9"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            <div>
+                <h3> // EDUCACIÓN </h3>
+                <div class="row">
+                    <div class="col-md-1"> <strong> 2012 </strong> </div>
+                    <div class="col-md-9"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"> <strong> 1986 </strong> </div>
+                    <div class="col-md-9"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                </div>
             </div>
 
-            <div class="EXPERIENCIA"> //EXPERIENCIA </div>
+            <div class="row"></div>
+
+            <h3> // EXPERIENCIA </h3>
             <div class="row">
-                <div class="col-md-2"> Google </div>
-                <div class="col-md-8"> Front end developer </div>
+                <div class="col-md-2"><strong> Google </strong> </div>
+                <div class="col-md-8"><strong> Front end developer </strong> </div>
             </div>
             <div class="row">
                 <div class="col-md-2"> 2013-2014 </div>
@@ -125,8 +135,8 @@
                     ea commodo consequat.</div>
             </div>
             <div class="row">
-                <div class="col-md-2"> Google </div>
-                <div class="col-md-8"> Front end developer </div>
+                <div class="col-md-2"><strong> Google </strong></div>
+                <div class="col-md-8"> <strong> Front end developer </strong> </div>
             </div>
             <div class="row">
                 <div class="col-md-2"> 2013-2014 </div>
@@ -137,7 +147,7 @@
         </div>
 
         <div class="col-md-4">
-            <div class="CONTACTO"> // CONTACTO </div>
+            <h3> // CONTACTO </h3>
             <div class="">
                 <ul>
                     <li><strong>Email:</strong> romina@gmail.com</li>
@@ -146,13 +156,35 @@
                     <li><strong>Facebook:</strong> /romina</li>
                 </ul>
             </div>
-            <div class="SKILLS"> // SKILLS </div>
-            <div class="">PYTHON</div>
-            <div class="">HTML</div>
-            <div class="">CSS</div>
-            <div class="">JS</div>
-            <div class="">PHP</div>
-            <div class="IDIOMAS"> // IDIOMAS </div>
+            <h3> // SKILLS </h3>
+            <div class="skills">
+                <div class="row">
+                    <div class="skillpython col-md-7">PYTHON</div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="row">
+                    <div class="skillhtml col-md-6">HTML</div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                    <div class="skillcss col-md-5">CSS</div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="row">
+                    <div class="skilljs col-md-4">JS</div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row">
+                    <div class="skillphp col-md-3">PHP</div>
+                    <div class="col-md-7"></div>
+                </div>
+            </div>
+            <div class="row"></div>
+
+            <div class="row">
+                <h3> // IDIOMAS </h3>
+            </div>
+
             <div class="row">
                 <div class="col-md-4">Inglés</div>
                 <div class="col-md-6">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
@@ -161,8 +193,8 @@
                 <div class="col-md-4">Español</div>
                 <div class="col-md-6">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
             </div>
-
-            <div class="HOBBIES"> // HOBBIES </div>
+            <div class="row"></div>
+            <h3> // HOBBIES </h3>
             <div class="row">
                 <div class="col-md-3">Fotografía</div>
                 <div class="col-md-3">Deporte</div>
